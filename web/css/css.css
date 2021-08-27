@@ -1,0 +1,27 @@
+
+body{
+    background-color: aliceblue;
+}
+
+table{
+    position: center;
+    border: black;
+    text-align: center;
+}
+
+td{
+    width: 100px;
+    text-align: center;
+}
+
+
+div.loginframe{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(255,255,255,0.5);
+    transform: translate(-50%,-50%);
+    border-radius: 25px;
+}
