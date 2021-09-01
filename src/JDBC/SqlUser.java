@@ -18,7 +18,7 @@ public class SqlUser implements Mysql{
                 "?allowPublicKeyRetrieval=true&useSSL=false&useUnicode=true&serverTimezone=GMT%2B8&characterEncoding=utf8";
 
         String username = "root";
-        String password = "jyf20010121";
+        String password = "******";
 
         Connection connection = DriverManager.getConnection(url, username, password);
 
